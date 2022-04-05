@@ -1,0 +1,117 @@
+  /* Fonts and colors*/
+
+  body{
+    font-family: Poppins;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.jumbotron {
+    background: #F4F4F6;
+}
+
+/*Button style*/
+
+#questionsGroup>div>button{
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 28px 10px 28px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+    .btn-primary{
+        color: #6D59EB; 
+        background-color: transparent; 
+        border-color: #6D59EB; 
+    }     
+     .btn-primary:hover, 
+    .btn-primary:focus, 
+    .btn-primary:active, 
+    .btn-primary.active, 
+    .open .dropdown-toggle.btn-primary { 
+    color: #ffffff; 
+    background: linear-gradient(266.62deg, #3F51F8 -5.71%, #6D59EB 130.35%);
+    border: 1px solid;
+    border-image-source: linear-gradient(266.62deg, #3F51F8 -5.71%, #6D59EB 130.35%);    
+    } 
+    
+    .btn-primary:active, 
+    .btn-primary.active, 
+    .open .dropdown-toggle.btn-primary { 
+    color:#ffffff;
+    } 
+    
+    .btn-primary .badge { 
+    color: #FFFFFF; 
+    background-color: #6D59EB; 
+    }
+
+    .card-body {
+        background: 0;
+    }
+
+    /*Accordion style*/
+    .accordion-collapse {
+            border: 0;
+        }
+
+
+        .accordion-flush .accordion-item{
+            background: 0;
+        }
+
+        .accordion-flush .accordion-item .accordion-button {
+            background: 0;
+        }
+
+        .accordion-header {
+            border-bottom: 0;
+        }
+        .accordion-button {
+            padding: 15px;
+            font-weight: 500;
+            border: 0;
+            font-size: 20px;
+            color: #333333;
+            text-align: left;
+            line-height: 28px;
+            border-bottom: 1px solid #ddd; 
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border: none;
+        }
+        .accordion-button:not(.collapsed) {
+            background: none;
+            color: linear-gradient(266.62deg, #3F51F8 -5.71%, #6D59EB 130.35%);
+
+        }
+        .accordion-body {
+            padding: 15px;
+        }
+        .accordion-button::after {
+            width: auto;
+            height: auto;
+            content: "+";
+            font-size: 20px;
+            background-image: none;
+            font-weight: 100;
+            transform: translateY(-4px);
+        }
+        .accordion-button:not(.collapsed)::after {
+            width: auto;
+            height: auto;
+            background-image: none;
+            content: "-";
+            font-size: 20px;
+            transform: translate(-5px, -4px);
+            transform: rotate(0deg);
+        }

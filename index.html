@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+    </head>
+<body>
+<!-- Start of Jumbotron -->
+<div class="jumbotron jumbotron-fluid" style="padding: 10% 0 10% 0; height: 100vh;">
+<h1 class="text-center">Frequently Asked Questions</h1>
+<div class="container" id="questionsGroup">
+    <div class="text-center">
+        <button class="btn btn-primary btn-lg"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseSafety" aria-expanded="false" aria-controls="collapseSafety">
+            Safety
+        </button>
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGeneral" aria-expanded="false" aria-controls="collapseGeneral">
+            General
+        </button>
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBilling" aria-expanded="false" aria-controls="collapseBilling">
+            Billing
+          </button>
+          <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWhat" aria-expanded="false" aria-controls="collapseWhat">
+            What should i not do?
+          </button>
+        </div>     
+
+      <div class="collapse" id="collapseSafety" data-bs-parent="#questionsGroup">
+                <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+        
+            <div class="collapse" id="collapseGeneral" data-bs-parent="#questionsGroup">
+                <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+            
+            <div class="collapse" id="collapseBilling" data-bs-parent="#questionsGroup">
+
+                    <div class="container w-75">
+                        <div class="row">
+                            <div>
+                                <div class="accordion accordion-flush" id="faqlist">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                            Refund Policy
+                                            </button>
+                                        </h2>
+                                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                            <div class="accordion-body">
+                                                We offer a refund policy for all our clients. If you are not satisfied with the service you may contact me in the Discord chat where we will collectively evaluate the situation. In most cases, a full refund will be initiated as it is our highest priority to offer a transparent service for our clients.
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                            Do i get a discount if i sign up long term?
+                                            </button>
+                                        </h2>
+                                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod euismod magna, sed tincidunt risus auctor at. Maecenas in luctus nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut metus velit, euismod in ipsum a, egestas varius est. In commodo sodales dolor. Phasellus viverra consequat lacus, id lacinia neque laoreet in. Suspendisse finibus ante magna, sit amet sagittis dui euismod eget. Nulla eros lacus, venenatis id quam non, tempor ultrices nisl. Nunc quis facilisis libero. Sed tincidunt pretium finibus. Phasellus tincidunt, odio at tristique interdum, ex arcu pellentesque dui, ac aliquet est risus ac velit.    
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                            Will i Receive an invoice?
+                                            </button>
+                                        </h2>
+                                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod euismod magna, sed tincidunt risus auctor at. Maecenas in luctus nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut metus velit, euismod in ipsum a, egestas varius est. In commodo sodales dolor. Phasellus viverra consequat lacus, id lacinia neque laoreet in. Suspendisse finibus ante magna, sit amet sagittis dui euismod eget. Nulla eros lacus, venenatis id quam non, tempor ultrices nisl. Nunc quis facilisis libero. Sed tincidunt pretium finibus. Phasellus tincidunt, odio at tristique interdum, ex arcu pellentesque dui, ac aliquet est risus ac velit.
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                            How can I pay?
+                                            </button>
+                                        </h2>
+                                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod euismod magna, sed tincidunt risus auctor at. Maecenas in luctus nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut metus velit, euismod in ipsum a, egestas varius est. In commodo sodales dolor. Phasellus viverra consequat lacus, id lacinia neque laoreet in. Suspendisse finibus ante magna, sit amet sagittis dui euismod eget. Nulla eros lacus, venenatis id quam non, tempor ultrices nisl. Nunc quis facilisis libero. Sed tincidunt pretium finibus. Phasellus tincidunt, odio at tristique interdum, ex arcu pellentesque dui, ac aliquet est risus ac velit.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+            <div class="collapse" id="collapseWhat" data-bs-parent="#questionsGroup">
+                <div class="card card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+            </div>
+
+</div>
+
+</div>
+<!-- End of Jumbotron -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
