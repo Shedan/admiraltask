@@ -82,7 +82,7 @@ h1{
             color: #333333;
             text-align: left;
             line-height: 28px;
-            border-bottom: 1px solid #ddd; 
+            /* border-bottom: 1px solid #ddd;  */
         }
 
         .accordion-button:focus {
@@ -92,6 +92,7 @@ h1{
         .accordion-button:not(.collapsed) {
             background: none;
             color: linear-gradient(266.62deg, #3F51F8 -5.71%, #6D59EB 130.35%);
+            box-shadow: none;
 
         }
         .accordion-body {
